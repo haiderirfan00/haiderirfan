@@ -1,0 +1,289 @@
+/* HERO SECTION */
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/homeback.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-top: 17rem;
+  font-size: 8rem;
+  color: #fff;
+  font-family: "maaz";
+  letter-spacing: 1.2rem;
+  font-weight: 60;
+  text-transform: uppercase;
+}
+.hero h1 span {
+  font-size: 3rem;
+  color: darkgray;
+  font-family: "poppins";
+  letter-spacing: 0.7rem;
+  text-transform: uppercase;
+}
+
+/* ABOUT SECTION */
+
+.about {
+  background: #000;
+  display: flex;
+}
+
+.image {
+  width: 45%;
+}
+
+.image img {
+  height: 55rem;
+  margin-left: 14rem;
+  margin-top: 6rem;
+}
+
+.text {
+  width: 55%;
+  text-align: center;
+}
+
+.backtitle {
+  margin-top: 4rem;
+  font-size: 8rem;
+  color: #252525;
+  text-transform: uppercase;
+  letter-spacing: 1.2rem;
+  font-family: athene;
+  font-weight: bolder;
+}
+
+.fronttitle {
+  font-size: 3rem;
+  color: #fff;
+  font-family: newasia;
+  margin-top: -7.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+}
+
+.text p {
+  width: 45rem;
+  font-size: 1.8rem;
+  text-align: justify;
+  font-family: "maaz";
+  margin-top: 6rem;
+  margin-left: 12rem;
+  color: gray;
+}
+
+.socials {
+  margin-top: 5rem;
+  text-align: justify;
+  margin-left: 9rem;
+}
+
+.twitter {
+  color: #fff;
+  font-size: 5rem;
+  color: gray;
+  cursor: pointer;
+  margin-left: 2rem;
+  transition: 0.3s all;
+}
+
+.twitter:hover {
+  color: dodgerblue;
+}
+
+.facebook {
+  color: #fff;
+  font-size: 4.5rem;
+  color: gray;
+  cursor: pointer;
+  margin-left: 2rem;
+  transition: 0.3s all;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.github {
+  color: #fff;
+  font-size: 4.9rem;
+  color: gray;
+  cursor: pointer;
+  margin-left: 2rem;
+  transition: 0.3s all;
+}
+
+.github:hover {
+  color: #454545;
+}
+
+.contact {
+  margin-top: 3rem;
+  text-align: justify;
+  margin-left: 13rem;
+}
+
+.contact h2 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: poppins;
+}
+
+.contact h3 {
+  color: dodgerblue;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-family: poppins;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.contact h3:hover {
+  color: lightblue;
+}
+
+.contact h3 span {
+  color: darkgray;
+  font-family: maaz;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+/* SERVICES SECTION */
+
+.services {
+  background: #000;
+  text-align: center;
+}
+
+.services h3 {
+  margin-top: 4rem;
+  color: gray;
+  font-size: 2.2rem;
+  font-family: "poppins";
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+}
+
+.services h2 {
+  color: #fff;
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+  font-family: "maaz";
+  font-weight: 100;
+}
+
+.subsec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 2rem;
+  margin-top: 7rem;
+  row-gap: 7rem;
+}
+
+.service {
+  width: 9rem;
+  height: 11rem;
+  width: 35rem;
+  height: 25rem;
+  text-align: center;
+}
+
+.design {
+  font-size: 8rem;
+  margin-top: 4rem;
+  color: dodgerblue;
+}
+
+.service h2 {
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  font-family: "poppins";
+  font-weight: bolder;
+}
+
+/* CONTACT SECTION */
+
+.contactsec {
+  background: #000;
+  display: flex;
+}
+
+.contactsec h1 {
+  margin-top: 9rem;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin-left: 3rem;
+  color: #fff;
+  font-family: "athene";
+  font-weight: 500;
+}
+
+.contactbtn {
+  width: 25rem;
+  height: 10rem;
+  margin-top: 6rem;
+  margin-left: 4rem;
+  border: -1.9rem solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 4rem;
+  cursor: pointer;
+  font-family: "newasia";
+  transition: 0.3s all;
+}
+
+.contactbtn:hover {
+  background: #454555;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 700px) {
+  
+  .image {
+    display: none;
+  }
+  .text h2 {
+    margin-top: 4rem;
+    font-size: 8rem;
+    color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 1.2rem;
+    font-family: athene;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .text h3 {
+    display: none;
+  }
+  .text p{
+    margin-left: 0rem;
+    width: 33rem;
+    margin-left: 2rem;
+  }
+  .socials{
+    margin-top: 5rem;
+    text-align: justify;
+    margin-left: 4rem;
+    display: flex;
+    width: 100%;
+  }
+  .tt{
+    display: none;
+  }
+  .subsec {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contactsec{
+    display: inline-block;
+  }
+}

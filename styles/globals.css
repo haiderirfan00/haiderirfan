@@ -1,0 +1,82 @@
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 5rem 0rem;
+}
+
+.i {
+  color: transparent;
+}
+
+/* FONT SIZE CONFIGRATION */
+
+html {
+  font-size: 62.5%;
+  font-size: 10px;
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: profile;
+  src: url(../Fonts/estherilla/estherilla.otf);
+}
+
+@font-face {
+  font-family: premium;
+  src: url(../Fonts/Caghen_Demo/Caghen_Demo.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(../Fonts/Poppins-1/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: wensly;
+  src: url(../Fonts/wensley-font/WensleyDemo-z8gll.ttf);
+}
+@font-face {
+  font-family: maaz;
+  src: url(../Fonts/MaazFont/maaz-regulardemo.otf);
+}
+@font-face {
+  font-family: evafiya;
+  src: url(../Fonts/Evafiya-Font/Evafiya.ttf);
+}
+@font-face {
+  font-family: sulphur;
+  src: url(../Fonts/sulphurpoint/SulphurPoint-Bold.otf);
+}
+@font-face {
+  font-family: citrica;
+  src: url(../Fonts/citrica/Citrica/Citrica-Regular.ttf);
+}
+@font-face {
+  font-family: alata;
+  src: url(../Fonts/alata/fonts/Alata-Regular.ttf);
+}
+@font-face {
+  font-family: athene;
+  src: url(../Fonts/atheneff/AtheneFF/Athene.otf);
+}
+@font-face {
+  font-family: newasia;
+  src: url(../Fonts/newnesia/Newnesia.ttf);
+}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 1rem;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gainsboro;
+}
